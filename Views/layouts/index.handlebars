@@ -1,0 +1,31 @@
+<!-- views/index.handlebars -->
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+
+<body>
+  <section id="quotes">
+    - {{quote}} 
+    - {{author}} 
+    - {{source}}
+  </section>
+
+  <form action="/" method="post">
+    <label for="author">Author:</label>
+    <input id="author" name="author">
+
+    <label for="source">From:</label>
+    <input id="source" name="source">
+
+    <label for="quote">Quote:</label>
+    <textarea id="quote" name="quote"></textarea>
+
+    <input type="submit" name="submit">
+  </form>
+</body>
+
+</html>
